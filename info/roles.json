@@ -1,0 +1,57 @@
+
+    [
+        {
+            "role": "Hero of Light",
+            "img": "logo/hero.jpg",
+            "description": "Hero of Light adalah sosok pahlawan yang dipanggil dari dunia lain untuk menyelamatkan kerajaan dari kegelapan. Dengan kekuatan suci yang diberikan oleh dewa, dia berjuang melawan monster dan musuh untuk mengembalikan perdamaian.",
+            "skills": ["Attack", "Defense", "Magic", "Speed", "Luck"]
+        },
+        {
+            "role": "Demon Lord",
+            "img": "logo/villain.jpg",
+            "description": "Demon Lord adalah penguasa kegelapan yang memimpin pasukan iblis untuk menghancurkan dunia. Dengan kekuatan magis yang mengerikan, dia adalah ancaman terbesar bagi umat manusia.",
+            "skills": ["Attack", "Defense", "Magic", "Speed", "Luck"]
+        },
+        {
+            "role": "Reincarnated Slime",
+            "img": "logo/slime.jpg",
+            "description": "Reincarnated Slime adalah seorang manusia yang terlahir kembali sebagai slime di dunia fantasi. Meskipun berbentuk makhluk rendah, dia memiliki kemampuan unik untuk menyerap dan menggunakan kekuatan musuh-musuhnya.",
+            "skills": ["Attack", "Defense", "Magic", "Speed", "Luck"]
+        },
+        {
+            "role": "Dragon King",
+            "img": "logo/dragon.jpg",
+            "description": "Dragon King adalah penguasa naga, makhluk terkuat di dunia isekai. Dengan kekuatan sihir kuno dan napas api yang mematikan, dia menjaga keseimbangan alam dengan kebijaksanaannya.",
+            "skills": ["Attack", "Defense", "Magic", "Speed", "Luck"]
+        },
+        {
+            "role": "Sword Saint",
+            "img": "logo/sword.jpg",
+            "description": "Sword Saint adalah pendekar pedang legendaris yang mampu menebas apapun dengan serangannya yang cepat dan akurat. Dia dikenal sebagai ahli seni pedang yang tak tertandingi di dunia isekai.",
+            "skills": ["Attack", "Defense", "Magic", "Speed", "Luck"]
+        },
+        {
+            "role": "Archmage",
+            "img": "logo/mage.jpg",
+            "description": "Archmage adalah penyihir terkuat yang menguasai semua elemen sihir. Dengan pengetahuannya yang luas tentang sihir kuno, dia bisa menghancurkan pasukan musuh atau menciptakan keajaiban besar.",
+            "skills": ["Attack", "Defense", "Magic", "Speed", "Luck"]
+        },
+        {
+            "role": "Summoner",
+            "img": "logo/summoner.jpg",
+            "description": "Summoner adalah seseorang yang bisa memanggil makhluk dari dunia lain untuk bertarung di sisinya. Dengan kontrak spiritual, dia memerintah berbagai entitas kuat untuk melawan musuh-musuhnya.",
+            "skills": ["Attack", "Defense", "Magic", "Speed", "Luck"]
+        },
+        {
+            "role": "Shield Hero",
+            "img": "logo/shield.jpg",
+            "description": "Shield Hero adalah seorang pahlawan yang dipanggil ke dunia isekai untuk melindungi umat manusia. Dia menggunakan perisainya yang tak terkalahkan untuk melindungi teman-temannya dan menangkis serangan musuh.",
+            "skills": ["Attack", "Defense", "Magic", "Speed", "Luck"]
+        },
+        {
+            "role": "Beast Tamer",
+            "img": "logo/tamer.jpg",
+            "description": "Beast Tamer adalah seseorang yang memiliki kemampuan untuk menjinakkan dan memerintah binatang buas. Dengan koneksi spiritualnya dengan makhluk liar, dia membentuk aliansi kuat dengan monster untuk melawan ancaman.",
+            "skills": ["Attack", "Defense", "Magic", "Speed", "Luck"]
+        }
+    ]

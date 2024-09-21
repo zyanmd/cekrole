@@ -1,0 +1,347 @@
+/* Basic Layout and Body Styling */
+html, body {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    font-smoothing: antialiased; /* Haluskan font */
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f5f5f7; /* Warna iOS yang lembut */
+    color: #333;
+}
+
+/* Container Styling */
+.container {
+    flex: 1;
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    background: #007aff; /* Warna biru khas iOS */
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: 1px;
+    border-radius: 10px; /* Membulatkan sudut */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Search Box Styling */
+.search-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 0;
+    gap: 15px;
+}
+
+.search-box input {
+    padding: 12px 15px;
+    width: 70%;
+    border: none;
+    border-radius: 12px;
+    background-color: #fff;
+    font-size: 1rem;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05); /* Efek bayangan halus */
+    transition: all 0.3s ease;
+}
+
+.search-box input:focus {
+    background-color: #f0f0f5; /* Fokus iOS */
+    outline: none;
+}
+
+.search-box button {
+    padding: 12px 20px;
+    background-color: #007aff;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.search-box button:hover {
+    background-color: #005bb5; /* Warna hover */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Result Container */
+.result-container {
+    display: flex;
+    flex-direction: column; /* Membuat konten dalam container vertikal */
+    align-items: center; /* Mencenterkan gambar secara horizontal */
+    justify-content: center; /* Mencenterkan konten secara vertikal */
+    border-radius: 20px;
+    padding: 25px;
+    margin-bottom: 20px;
+    /* background: rgba(255, 255, 255, 0.7); Efek iOS transparan */
+    /* backdrop-filter: blur(10px); Efek blur */
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.05); /* Shadow lebih lembut */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+.result-container:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1); /* Shadow lebih besar */
+}
+
+/* Animasi Fade-In ala iOS */
+@keyframes fadeInUp {
+    0% {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.result-container h2,
+.result-container p,
+.result-container ul {
+    animation: fadeInUp 0.6s ease-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+.result-container h2 {
+    animation-delay: 0.1s;
+    font-size: 1.5rem;
+    color: #007aff; /* Warna biru khas iOS */
+    font-weight: bold;
+}
+
+.result-container p {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.result-container ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.result-container ul li {
+    padding: 5px 0;
+    font-size: 1rem;
+    color: #555;
+    display: flex;
+    align-items: center;
+}
+
+.result-container ul li:before {
+    content: '•';
+    margin-right: 10px;
+    color: #007aff;
+    font-weight: bold;
+}
+
+/* Animasi Scale-Up ala iOS */
+@keyframes scaleUp {
+    0% {
+        transform: scale(0.95);
+        opacity: 0;
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.result-container img {
+    max-width: 150px;
+    border-radius: 12px;
+    margin: 10px 0; /* Spasi vertikal di atas dan bawah gambar */
+    animation: scaleUp 0.6s ease-out;
+    opacity: 0;
+    animation-fill-mode: forwards;
+}
+
+/* Footer Styling */
+footer {
+    background-color: #007aff;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    font-size: 1rem;
+    margin-top: auto;
+    border-radius: 10px;
+    box-shadow: 0 -4px 10px rgba(0, 0, 0, 0.1);
+}
+
+footer p {
+    margin: 0;
+    padding: 5px 0;
+    font-size: 0.9rem;
+}
+
+footer a {
+    color: #f1faee;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: #ffffff;
+}
+
+/* Footer Social Icons */
+footer .social-icons a {
+    margin: 0 10px;
+    font-size: 1.2rem;
+    color: #f1faee;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+footer .social-icons a:hover {
+    color: #ffffff;
+    transform: scale(1.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .search-box {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .search-box input {
+        width: 100%;
+    }
+
+    .search-box button {
+        width: 100%;
+    }
+
+    footer {
+        padding: 15px 0;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+
+    footer .social-icons a {
+        font-size: 1rem;
+    }
+}
+
+/*
+- Widget Donasi ala Igniel
+- Source code: https://www.igniel.com/2023/04/widget-donasi-blog.html
+*/
+.ignielDonasi {
+  --background: #f9f9f9;
+  --backgroundHover: #f0f0f0;
+  --color: #2f2f2f;
+  --colorHover: #2f2f2f;
+  --icon: #5c5c5c;
+  --col: 2;
+  margin-top: 2rem;
+}
+.ignielDonasi path {
+  fill: none;
+  stroke: var(--icon);
+  stroke-width: 1.5px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.ignielDonasi svg:first-child {
+  height: 2rem;
+  width: 35px;
+}
+.ignielDonasi svg:last-child {
+  height: 1rem;
+  width: 1rem;
+}
+.ignielDonasi-judul {
+  font-weight: 700;
+  margin-bottom: 1rem;
+}
+.ignielDonasi img {
+  width: 35px;
+}
+.ignielDonasi-ikon {
+  margin-right: 1rem;
+}
+.ignielDonasi-isi {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(var(--col), 1fr);
+}
+.ignielDonasi-isi a {
+  align-items: center;
+  background-color: var(--background);
+  border-radius: 7px;
+  color: var(--color);
+  display: flex;
+  gap: 1rem;
+  padding: .75rem 1.25rem;
+  text-decoration: none;
+  transition: all .3s;
+}
+.ignielDonasi-isi a:hover {
+  background-color: var(--backgroundHover);
+  color: var(--colorHover);
+  text-decoration: none;
+}
+.ignielDonasi-isi .wallet {
+  flex-direction: column;
+}
+.ignielDonasi-isi .wallet i {
+  display: block;
+  font-size: 11px;
+  font-style: normal;
+  line-height: 13px;
+}
+.ignielDonasi-isi a, .ignielDonasi-isi a span {
+  flex-grow: 1;
+}
+@media screen and (max-width: 768px) {
+  .ignielDonasi-isi {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+@media screen and (max-width: 568px) {
+  .ignielDonasi-isi {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+#saveAsImageButton {
+    background-color: #4CAF50; /* Warna latar belakang hijau */
+    color: white; /* Warna teks */
+    padding: 10px 20px; /* Ruang di sekitar teks */
+    font-size: 16px; /* Ukuran font */
+    font-weight: bold; /* Membuat teks tebal */
+    border: none; /* Hilangkan border */
+    border-radius: 8px; /* Membuat sudut membulat */
+    cursor: pointer; /* Menampilkan kursor pointer saat hover */
+    transition: background-color 0.3s ease; /* Efek transisi saat berubah warna */
+}
+
+#saveAsImageButton:hover {
+    background-color: #45a049; /* Warna latar belakang saat hover */
+}
+
+#saveAsImageButton:active {
+    background-color: #3e8e41; /* Warna latar belakang saat tombol ditekan */
+    box-shadow: 0 5px #666; /* Tambahkan bayangan saat ditekan */
+    transform: translateY(4px); /* Efek sedikit turun saat ditekan */
+}

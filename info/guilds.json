@@ -1,0 +1,78 @@
+[
+    {
+        "name": "Ksatria",
+        "description": "Guild para prajurit pemberani yang melindungi kerajaan dengan keberanian tak tergoyahkan dan rasa tanggung jawab yang kuat."
+    },
+    {
+        "name": "Penyihir",
+        "description": "Guild para penyihir yang terampil dalam mengendalikan kekuatan elemen, sihir kuno, dan sihir hitam."
+    },
+    {
+        "name": "Penjaga Hutan",
+        "description": "Guild pemanah dan pemburu yang lincah, ahli dalam bersembunyi, melacak, dan bertarung dari jarak jauh."
+    },
+    {
+        "name": "Prajurit",
+        "description": "Guild para petarung tangguh yang mengkhususkan diri dalam pertarungan jarak dekat dan menggunakan senjata berat."
+    },
+    {
+        "name": "Pembunuh",
+        "description": "Guild para pembunuh yang bergerak dalam bayangan, menyerang dengan presisi dan kecepatan mematikan."
+    },
+    {
+        "name": "Penyembuh",
+        "description": "Guild yang didedikasikan pada seni penyembuhan melalui sihir dan alkimia, menyembuhkan luka dan mengobati penyakit."
+    },
+    {
+        "name": "Pencuri",
+        "description": "Guild para pencopet licik dan pemburu harta karun yang ahli dalam bersembunyi, membuka kunci, dan melakukan tipu daya."
+    },
+    {
+        "name": "Pandai Besi",
+        "description": "Guild para pengrajin ahli yang menempa senjata dan baju zirah kuat untuk prajurit-prajurit terbaik di negeri ini."
+    },
+    {
+        "name": "Alkemis",
+        "description": "Guild pembuat ramuan dan sarjana ilmu mistis yang menciptakan ramuan kuat dan ramuan sihir."
+    },
+    {
+        "name": "Penjinak Binatang",
+        "description": "Guild yang mengkhususkan diri dalam menjinakkan dan mengendalikan binatang buas, menggunakan mereka sebagai sekutu dalam pertempuran."
+    },
+    {
+        "name": "Bard",
+        "description": "Guild para musisi dan pendongeng yang menginspirasi sekutu dan melemahkan musuh melalui lagu dan puisi."
+    },
+    {
+        "name": "Necromancer",
+        "description": "Guild gelap yang mempraktikkan seni terlarang, memanggil roh-roh mati untuk berperang bagi mereka dan menggunakan sihir penguras kehidupan."
+    },
+    {
+        "name": "Elementalis",
+        "description": "Guild yang berfokus pada pengendalian kekuatan alam, seperti mengendalikan api, air, tanah, dan udara sesuai kehendak mereka."
+    },
+    {
+        "name": "Biksu",
+        "description": "Guild para petarung yang disiplin, menguasai seni bela diri dan teknik spiritual untuk mengalahkan musuh dalam pertempuran jarak dekat."
+    },
+    {
+        "name": "Bajak Laut",
+        "description": "Guild petualang dan tentara bayaran di lautan yang menjarah kekayaan dan bertarung demi kejayaan di laut lepas."
+    },
+    {
+        "name": "Paladin",
+        "description": "Guild prajurit suci yang menegakkan keadilan, menggunakan pedang dan sihir ilahi untuk melindungi orang-orang yang lemah."
+    },
+    {
+        "name": "Druid",
+        "description": "Guild penjaga alam yang bisa berkomunikasi dengan hewan dan menyalurkan kekuatan hutan untuk melindungi dunia."
+    },
+    {
+        "name": "Mata-mata",
+        "description": "Guild rahasia yang mengkhususkan diri dalam spionase, infiltrasi, dan mengumpulkan informasi berharga tentang musuh."
+    },
+    {
+        "name": "Insinyur",
+        "description": "Guild para penemu dan ahli mekanik yang menciptakan perangkat canggih, kreasi mekanis, dan bahan peledak."
+    }
+]
