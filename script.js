@@ -152,4 +152,26 @@ document.getElementById('saveAsImageButton').addEventListener('click', function(
         }, 'image/jpeg', 0.95); // Simpan sebagai JPEG dengan kualitas 95%
     });
 });
+// Menampilkan loading page minimal 2 detik
+var minLoadingTime = 2000; // 2 detik
+var startTime = new Date().getTime();
+
+window.addEventListener('load', function () {
+    var currentTime = new Date().getTime();
+    var elapsedTime = currentTime - startTime;
+
+    var remainingTime = minLoadingTime - elapsedTime;
+    if (remainingTime < 0) {
+        remainingTime = 0;
+    }
+
+    setTimeout(function () {
+        var loadingPage = document.getElementById('loading-page');
+        loadingPage.classList.add('fade-out');
+        setTimeout(function () {
+            loadingPage.style.display = 'none';
+            document.getElementById('main-content').style.display = 'block';
+        }, 1000); // Fade-out effect time
+    }, remainingTime);
+});
 
