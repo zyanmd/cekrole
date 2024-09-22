@@ -153,7 +153,7 @@ document.getElementById('saveAsImageButton').addEventListener('click', function(
     });
 });
 // Menampilkan loading page minimal 2 detik
-var minLoadingTime = 2000; // 2 detik
+var minLoadingTime = 3000; // 2 detik
 var startTime = new Date().getTime();
 
 window.addEventListener('load', function () {
