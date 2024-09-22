@@ -5,20 +5,19 @@
     height: 100%;
     background: linear-gradient(45deg, #ff5733, #33ff57, #3357ff, #f33fff);
     background-size: 400% 400%;
-    animation: gradient-animation 15s ease infinite; /* Animasi gradien */
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 9999;
     opacity: 1;
     transition: opacity 1s ease; /* Animasi fade-out */
+    animation: spin 10s linear infinite; /* Animasi berputar */
 }
 
-/* Animasi gradien */
-@keyframes gradient-animation {
-    0% { background-position: 0% 50%; }
-    50% { background-position: 100% 50%; }
-    100% { background-position: 0% 50%; }
+/* Animasi berputar */
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
 }
 
 /* Styling untuk GIF */
@@ -31,7 +30,6 @@
 .fade-out {
     opacity: 0;
 }
-
 /* Basic Layout and Body Styling */
 html, body {
     height: 100%;
